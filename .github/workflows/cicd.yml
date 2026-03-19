@@ -50,4 +50,4 @@ jobs:
     needs: docker
     steps:
       - name: Deploy Step
-        run: echo "Deployment will be automated next"
+        run: echo "Deployment step updated"
