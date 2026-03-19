@@ -14,7 +14,6 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: hello-app
-          imagePullPolicy: Never # ⭐ IMPORTANT LINE
+          image: ghansham15/hello-app
           ports:
             - containerPort: 3000
